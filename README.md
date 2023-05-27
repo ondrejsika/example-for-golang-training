@@ -1,0 +1,1 @@
+# example-for-golang-training
