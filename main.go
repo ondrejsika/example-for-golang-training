@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "hello-world/cmd"
 
 func main() {
-	fmt.Println("Hello World")
+	cmd.Execute()
 }
