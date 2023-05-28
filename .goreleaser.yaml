@@ -12,6 +12,11 @@ builds:
       - linux
       - windows
       - darwin
+    flags:
+      - -trimpath
+    ldflags:
+      - -s
+      - -w
 
 snapshot:
   name_template: "{{ incminor .Version }}-dev"
