@@ -1,7 +1,7 @@
 package root
 
 import (
-	"fmt"
+	"hello-world/pkg/hello"
 
 	"github.com/spf13/cobra"
 )
@@ -11,7 +11,7 @@ var FlagName string
 var Cmd = &cobra.Command{
 	Use: "hello-world",
 	Run: func(c *cobra.Command, args []string) {
-		fmt.Printf("Hello %s!\n", FlagName)
+		hello.PrintHello(FlagName)
 	},
 }
 
