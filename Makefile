@@ -18,4 +18,3 @@ ifndef VERSION
 	$(error VERSION is undefined)
 endif
 	slu go-code version-bump --version ${VERSION}
-	git tag ${VERSION}
